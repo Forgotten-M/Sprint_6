@@ -26,3 +26,6 @@
 * JUnit 4.13.2
 * Jacoco 0.8.12
 * Mockito 5.12.0
+
+#### Запуск:
+`mvn clean test`
