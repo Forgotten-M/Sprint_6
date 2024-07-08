@@ -28,7 +28,8 @@ public class AlexTheLionTest {
     //тест на количество львят льва Алекса
     @Test
     public void kittensAlexTheLionTest() {
-        assertEquals(0, alexTheLion.getKittens());
+        int expectedValue = 0;
+        assertEquals("Количество львят не соответствует ожидаемому", expectedValue, alexTheLion.getKittens());
     }
 
     //тест на получение места жительства льва Алекса

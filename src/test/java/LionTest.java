@@ -27,8 +27,9 @@ public class LionTest {
 
     @Test
     public void getKittensLionTest() {
+        int expectedValue = 1;
         Mockito.when(feline.getKittens()).thenReturn(1);
-        assertEquals(1, lion.getKittens());
+        assertEquals("Количество котят не соответствует ожидаемому", expectedValue, lion.getKittens());
     }
 
     @Test
